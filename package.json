@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/theonejonahgold/censor-swears#readme",
   "dependencies": {
-    "repeat-stream": "^1.6.1"
+    "repeat-stream": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.0"
   }
 }
