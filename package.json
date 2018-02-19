@@ -1,0 +1,27 @@
+{
+  "name": "censor-swears",
+  "version": "1.0.0",
+  "description": "Censor swear words in different ways",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git@github.com/theonejonahgold/censor-swears.git"
+  },
+  "keywords": [
+    "swears",
+    "swearwords",
+    "censor",
+    "censorship",
+    "censoring",
+    "grawlix"
+  ],
+  "author": "Jonah Meijers <jonahmeijers97@gmail.com> (https://jonahmeijers.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theonejonahgold/censor-swears/issues"
+  },
+  "homepage": "https://github.com/theonejonahgold/censor-swears#readme"
+}
