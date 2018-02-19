@@ -4,7 +4,7 @@
   "description": "Censor swear words in different ways",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,15 @@
     "url": "https://github.com/theonejonahgold/censor-swears/issues"
   },
   "homepage": "https://github.com/theonejonahgold/censor-swears#readme",
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
   "dependencies": {
     "repeat-stream": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.18.0"
+    "eslint": "^4.18.0",
+    "jest": "^22.3.0"
   }
 }
