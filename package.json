@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/theonejonahgold/censor-swears/issues"
   },
-  "homepage": "https://github.com/theonejonahgold/censor-swears#readme"
+  "homepage": "https://github.com/theonejonahgold/censor-swears#readme",
+  "dependencies": {
+    "repeat-stream": "^1.6.1"
+  }
 }
