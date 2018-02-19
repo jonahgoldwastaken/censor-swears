@@ -7,7 +7,7 @@ Install with [npm](https://www.npmjs.com/)
 $ npm install --save censor-swears
 ```
 
-## Usage
+## How to use
 ### [vowel](index.js#L19)
 Converts all vowels inside a swear into asterisks, or any character you supply.  
 Takes: `(string, character?)`  
