@@ -1,6 +1,6 @@
 'use strict';
 
-var repeat = require('repeat-string');
+const repeat = require('repeat-string');
 
 /* Expose `vowel` as default function: vowel = require('this package'). */
 module.exports = vowel;
@@ -10,10 +10,10 @@ vowel.vowel = vowel;
 vowel.inner = inner;
 vowel.grawlix = grawlix;
 
-var floor = Math.floor;
-var defaultCharacter = '*';
-var grawlixPattern = '@#$%!&?';
-var vowels = /[aeiouy]/g;
+const floor = Math.floor;
+const defaultCharacter = '*';
+const grawlixPattern = '@#$%!&?';
+const vowels = /[aeiouy]/g;
 
 /* `butt` > `b*tt` */
 function vowel(value, character) {
@@ -33,8 +33,8 @@ function inner(value, character) {
 
 /* `butt` > `@#$%` */
 function grawlix(value, pattern) {
-    var chars = pattern || grawlixPattern;
-    var length = typeof value === 'number' ? value : value.length;
-    var count = chars.length;
+    const chars = pattern || grawlixPattern;
+    const length = typeof value === 'number' ? value : value.length;
+    const count = chars.length;
     return repeat(chars, floor(length / count)) + chars.slice(0, length % count);
 }
