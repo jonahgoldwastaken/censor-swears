@@ -39,7 +39,6 @@
     "repeat-string": "^1.6.1"
   },
   "devDependencies": {
-    "eslint": "^4.18.0",
     "jest": "^22.3.0",
     "xo": "^0.20.3"
   }
